@@ -1,0 +1,155 @@
+/* === Global Styles === */
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background-color: #2e1e1e; /* Deep Chocolate */
+  color: #fffdfc;
+}
+
+a {
+  color: #ffb347; /* Vibrant Honey Gold */
+  text-decoration: none;
+}
+
+header, section, footer {
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+/* === Hero Section === */
+.hero {
+  background: linear-gradient(to right, #ff6f61, #ffb347); /* Coral to Gold */
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.hero h1 {
+  font-size: 3em;
+  color: #ffffff;
+  text-shadow: 2px 2px #000000;
+}
+
+.hero p {
+  font-size: 1.2em;
+  color: #ffeedd;
+}
+
+.hero button {
+  margin-top: 20px;
+  background-color: #8fbc8f; /* Sage Green */
+  color: #2e1e1e;
+  padding: 15px 30px;
+  font-size: 1em;
+  font-weight: bold;
+  border: none;
+  border-radius: 12px;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ffffff50;
+  transition: all 0.3s ease;
+}
+
+.hero button:hover {
+  background-color: #ffb347;
+  color: #2e1e1e;
+  transform: scale(1.05);
+  box-shadow: 0 0 20px #ffb347;
+}
+
+/* === About Section === */
+.about {
+  background-color: #3e2a2a;
+  border-left: 8px solid #ff6f61;
+  border-radius: 10px;
+  margin-top: 40px;
+  padding: 20px;
+}
+
+.about h2 {
+  color: #ffb347;
+}
+
+/* === Services Section === */
+.services {
+  margin-top: 40px;
+}
+
+.services h2 {
+  color: #ffb347;
+}
+
+.service-item {
+  background-color: #4b3d3d;
+  padding: 20px;
+  margin: 15px 0;
+  border-left: 6px solid #8fbc8f;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+/* === Contact Section === */
+.contact h2 {
+  color: #ffb347;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  font-size: 1em;
+  background-color: #fffdfc;
+  color: #2e1e1e;
+}
+
+.contact-form button {
+  background-color: #ff6f61;
+  color: #fffdfc;
+  padding: 12px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-form button:hover {
+  background-color: #ffb347;
+}
+
+/* === Footer === */
+footer {
+  text-align: center;
+  font-size: 0.9em;
+  margin-top: 40px;
+  color: #ccc2b4;
+  border-top: 1px solid #524141;
+  padding-top: 20px;
+}
+
+footer a {
+  margin: 0 10px;
+}
+
+/* === Mobile Responsive === */
+@media (max-width: 600px) {
+  .hero h1 {
+    font-size: 2em;
+  }
+
+  .hero p {
+    font-size: 1em;
+  }
+
+  .contact-form input,
+  .contact-form textarea {
+    font-size: 0.95em;
+  }
+}
