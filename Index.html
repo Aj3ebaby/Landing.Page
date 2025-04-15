@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>GlowUp Naturals</title>
+  <style>
+    /* === Global Styles === */
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #3b2f2f;
+      color: #ffffff;
+    }
+
+    a {
+      color: #bfae80;
+      text-decoration: none;
+    }
+
+    header, section, footer {
+      padding: 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    /* === Hero Section === */
+    .hero {
+      background: linear-gradient(to right, #3b2f2f, #5a3e36);
+      text-align: center;
+      padding: 100px 20px;
+    }
+
+    .hero h1 {
+      font-size: 3em;
+      color: #ffe5b4;
+    }
+
+    .hero p {
+      font-size: 1.2em;
+      color: #d3c0a3;
+    }
+
+    .hero button {
+      margin-top: 20px;
+      background-color: #bfae80;
+      color: #3b2f2f;
+      padding: 15px 30px;
+      font-size: 1em;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .hero button:hover {
+      background-color: #d8c792;
+    }
+
+    /* === About Section === */
+    .about {
+      background-color: #4e3c3c;
+      border-radius: 10px;
+      margin-top: 40px;
+    }
+
+    .about h2 {
+      color: #ffe5b4;
+    }
+
+    /* === Services Section === */
+    .services {
+      margin-top: 40px;
+    }
+
+    .services h2 {
+      color: #ffe5b4;
+    }
+
+    .service-item {
+      background-color: #5a3e36;
+      padding: 15px;
+      margin: 10px 0;
+      border-radius: 8px;
+    }
+
+    /* === Contact Section === */
+    .contact h2 {
+      color: #ffe5b4;
+    }
+
+    .contact-form {
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+    }
+
+    .contact-form input, .contact-form textarea {
+      padding: 10px;
+      border-radius: 5px;
+      border: none;
+      font-size: 1em;
+    }
+
+    .contact-form button {
+      background-color: #bfae80;
+      color: #3b2f2f;
+      padding: 10px;
+      font-weight: bold;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+
+    .contact-form button:hover {
+      background-color: #d8c792;
+    }
+
+    /* === Footer === */
+    footer {
+      text-align: center;
+      font-size: 0.9em;
+      margin-top: 40px;
+      color: #c9b89a;
+    }
+
+    footer a {
+      margin: 0 10px;
+    }
+
+    /* === Mobile Responsive === */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 2em;
+      }
+
+      .hero p {
+        font-size: 1em;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <header class="hero">
+    <h1>GlowUp Naturals</h1>
+    <p>Clean. Confident. Cruelty-Free Skincare for Every Age & Stage.</p>
+    <button>Shop Now</button>
+  </header>
+
+  <!-- About Section -->
+  <section class="about">
+    <h2>About Us</h2>
+    <p>At GlowUp Naturals, we believe skincare is more than skin deep. Our all-natural, eco-friendly products are designed to nurture your glow at any age. We celebrate every shade, size, and story — because every face deserves to shine.</p>
+  </section>
+
+  <!-- Services Section -->
+  <section class="services">
+    <h2>Our Essentials</h2>
+    <div class="service-item">
+      <strong>GlowUp Cleanser - $18</strong><br>
+      Gentle, plant-based formula for fresh, clean skin.
+    </div>
+    <div class="service-item">
+      <strong>Hydrating Face Serum - $25</strong><br>
+      Locks in moisture with hyaluronic acid & aloe vera.
+    </div>
+    <div class="service-item">
+      <strong>Overnight Radiance Cream - $30</strong><br>
+      Wake up glowing with our nourishing nighttime formula.
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section class="contact">
+    <h2>Contact Us</h2>
+    <form class="contact-form">
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 GlowUp Naturals. All rights reserved.</p>
+    <a href="#">Instagram</a> |
+    <a href="#">TikTok</a> |
+    <a href="#">LinkedIn</a>
+  </footer>
+
+</body>
+</html>
